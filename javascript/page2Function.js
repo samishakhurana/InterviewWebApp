@@ -10,6 +10,7 @@ function change(e){
     
 }
 
+//Adding elements to DOM during runtime for profile page
 function addNewRow(id){
     if(id=="a-educationLink"){
         

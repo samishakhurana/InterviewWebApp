@@ -5,7 +5,8 @@ var navButton=document.getElementsByClassName("navigation__container_wrapper_but
 for (var i = 0; i < buttons.length; i++) {
     buttons[i].onclick = click;
   }
-
+ 
+//Function handling click events of all buttons
 function click(e){
     
     var nameOfClass=e.target.className;
@@ -34,10 +35,12 @@ function click(e){
         storeInSessionStorage(btnId);
         modifyApperance(btnId);
       }
+      else{
+        alert("Fill the complete form");
+      }
       
       var pageData=getDataFromSessionStorage();
-      
-      //Uncomment it
+
       if(pageData!=null){
         modifyData(pageData,0 );
       }
@@ -88,6 +91,7 @@ function click(e){
             
         }
         
+        
       }
       else if(e.target.id==="button-backButton"){
         //storeInSessionStorage(activeBtnId);
@@ -121,6 +125,7 @@ function click(e){
     }
 }
 
+//Change the appearnce of footer and header while changing pages
 function modifyApperance(btnId){
     var btn=document.getElementById(btnId);
     btn.innerHTML=btnId[13];
@@ -214,6 +219,7 @@ function changeBtnIcon(i){
         
 }
 
+//fetch list of checked option in expertise page
 function getCheckedOption(option){
   console.log(option);
   var classname="input-option"+option[8];

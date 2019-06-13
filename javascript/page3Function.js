@@ -14,12 +14,7 @@ for (var i = 0; i < options.length; i++) {
     var id=e.target.id;
     manageVisibleOptions(id);
     changeAppearance(id);
-    
-    
-    
-    
 
-    
   }
 
   function manageVisibleOptions(id){
@@ -39,7 +34,8 @@ for (var i = 0; i < options.length; i++) {
     }
 
   }
-
+ 
+ 
   function changeAppearance(id){
     var arr=id.split("-");
     var resId="div-"+arr[1];
