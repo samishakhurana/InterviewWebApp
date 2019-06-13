@@ -1,0 +1,90 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: grey;
+}
+
+html{
+    border-top: solid;
+    border-width: 5px;
+    border-color: rgb(228, 126, 31);
+}
+
+.heading__container_wrapper{
+    text-align: center;
+    font-size: 32px;
+    padding: 25px;
+    
+}
+
+.navigation__container_wrapper{
+    text-align: center;
+}
+
+.navigation__container_wrapper_button{
+    background-color:white;
+    border: dashed 1px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    margin: 20px 0px 10px 0px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.navigation__container_wrapper_button:hover{
+    background-color:rgb(228, 126, 31);
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.navigation__container_wrapper_line{
+    display: inline-block;
+    width: 200px;
+    border-style: dashed;
+    border-width: 0.5px;
+    border-color: grey;
+}
+
+.navigation__container_wrapper_text{
+    display: inline;
+    margin: 0px 90px;
+    font-size: 12px;
+    color: grey;
+
+}
+
+.footer__container_wrapper_button{
+    background-color:rgb(228, 126, 31);
+    border-radius: 20%;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+#button-backButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    float: left;
+}
+
+#button-nextButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    float: right;
+}
+
+
+
+

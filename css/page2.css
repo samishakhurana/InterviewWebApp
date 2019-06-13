@@ -1,0 +1,52 @@
+.form_container_wrapper_info_field_spanLink{
+    color: rgb(123, 195, 219);
+    
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+.flex2_container{
+    display: flex;
+}
+
+
+.flex2_item2{
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.flex2_item1{
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+
+#span-history{
+    padding-left: 70px;
+    padding-right: 40px;
+    
+}
+
+
+
+#span-education{
+    padding-left: 70px;
+    padding-right: 40px;
+}
+
+#input-historyValue{
+    padding-left: 95px;
+}
+
+.innerDiv{
+    padding-left: 210px;
+}
+
+#a-historyLink{
+    padding-left: 80px;
+}
+
+#a-educationLink{
+    padding-left: 80px;
+}

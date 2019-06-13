@@ -1,0 +1,338 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/page1.css">
+        <link rel="stylesheet" href="../css/page2.css">
+        <link rel="stylesheet" href="../css/page3.css">
+        <link rel="stylesheet" href="../css/page4.css">
+    </head>
+    <body>
+        <div class="heading__container">
+            <div class="heading__container_wrapper">
+                Sample Project
+            </div>
+        </div>
+        <div class="navigation__container">
+            <div class="navigation__container_wrapper">
+                <button class="navigation__container_wrapper_button" id="button-button1">1</button>
+                <hr class="navigation__container_wrapper_line"></hr>
+                <button class="navigation__container_wrapper_button" id="button-button2">2</button>
+                <hr class="navigation__container_wrapper_line"></hr>
+                <button class="navigation__container_wrapper_button" id="button-button3">3</button>
+                <hr class="navigation__container_wrapper_line"></hr>
+                <button class="navigation__container_wrapper_button" id="button-button4">4</button>
+                
+            </div>
+            <div class="navigation__container_wrapper">
+                <p class="navigation__container_wrapper_text" id="text-text1">
+                    PERSONAL INFO
+                </p>
+                <p class="navigation__container_wrapper_text" id="text-text2">
+                    PROFILE
+                </p>
+                <p class="navigation__container_wrapper_text" id="text-text3">
+                    EXPERTISE
+                </p>
+                <p class="navigation__container_wrapper_text" id="text-text4">
+                    INTERVIEW
+                </p>
+            </div>
+        </div>
+
+        <div class="form_container">
+            <div class="form_container_wrapper">
+                <div class="form_container_wrapper_info" id="form-form1">
+                  <form name="page1">
+                    <div class="form_container_wrapper_info_field flex_container">
+                        
+                        <span class="form_container_wrapper_info_field_span1 flex_item1" id="span-nameText">Name</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <input type="text" placeholder="Name" id="input-nameValue"/>
+                        </span>
+                        
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1" id="span-emailText">Email</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <input type="text" placeholder="Email" id="input-emailValue"/>
+                        </span>
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1">What are you?</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2" id="span-levelValue">
+                                <input type="radio" name="level" value="University Student" id="span-levelValue1" checked> University Student
+                                <input type="radio" name="level" value="Professional" id="span-levelValue2"> Professional
+                        </span>
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1" >University</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <input type="text" placeholder="University" id="input-universityValue"/>      
+                        </span>
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1">Major</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <input type="text" placeholder="Major" id="input-majorValue"/>     
+                        </span>
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1">Graduation Date:</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <select>
+                                
+                                
+                            </select>
+                        </span>
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1">Do you have a Tax ID?</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <input type="radio" name="taxStatus" value="yes" checked> I have a Tax ID
+                            <input type="radio" name="taxStatus" value="no"> I don't have a Tax ID    
+                        </span>
+                    </div>
+                    <div class="form_container_wrapper_info_field flex_container">
+                        <span class="form_container_wrapper_info_field_span1 flex_item1">Mobile</span>
+                        <span class="form_container_wrapper_info_field_span2 flex_item2">
+                            <input type="text" placeholder="Mobile" id="input-mobileValue"/>           
+                        </span>
+                    </div>
+                  </form>
+                </div>
+
+
+
+                <div class="form_container_wrapper_info" id="form-form2">
+                
+                    <form name="page2">
+                        <div class="form_container_wrapper_info_field form_container flex2_container" >
+                            <span class="form_container_wrapper_info_field_span1  flex2_item1" id="span-aboutyouText">About you</span>
+                            <span class="form_container_wrapper_info_field_span2  flex2_item2">
+                                <textarea rows="4" cols="25" id="textarea-aboutyouValue">Write a short bio</textarea>
+                            </span>
+                        </div>
+                        <div class="form_container_wrapper_info_field form_container flex2_container">
+                            <span class="form_container_wrapper_info_field_span1  flex2_item1" id="span-experience">Teaching Experience</span>
+                            <span class="form_container_wrapper_info_field_span2 flex2_item2">
+                                <textarea rows="4" cols="25" id="textarea-experienceValue">Tell us about your teaching experience</textarea>
+                            </span>
+                        </div>
+                        <div class="form_container_wrapper_info_field form_container" id="div-experience">
+                            <span class="form_container_wrapper_info_field_span1 form_item1" id="span-history">Work History</span>
+                            <span class="form_container_wrapper_info_field_span2 form_item2">
+                                <input type="text" placeholder="Company" id="input-historyValue1" class="input_history"/>
+                            </span >
+                            <br >
+                            <div class="innerDiv">
+                            <span class="form_container_wrapper_info_field_span2 form_item2">
+                                <select id="select-activeFrom1" class="select_activeFrom">
+                                    <option>Active From</option>
+                                </select>
+                                <select id="select-activeTo1" class="select_activeTo">
+                                    <option>Active To</option> 
+                                </select>
+                            </span>
+                            </div>
+                            
+                            <br>
+                        </div>
+                            <div>
+                            <span class="form_container_wrapper_info_field_spanLink" id="span-historyLink">
+                                <a id="a-historyLink">+ Add another job</a>
+                            </span>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="form_container_wrapper_info_field form_container" id="div-education">
+                            <span class="form_container_wrapper_info_field_span1 form_item1" id="span-education">Education</span>
+                            <span class="form_container_wrapper_info_field_span2 form_item2">
+                                <input type="text" placeholder="School" id="input-educationValue1" class="input_education"/>
+                            </span>
+                            <br>
+                            <div class="innerDiv">
+                            <span class="form_container_wrapper_info_field_span2 form_item2">
+                                <select id="select-enrolled1" class="select_enrolled">
+                                    <option>Enrolled</option>
+                                    
+                                </select>
+                                <select id="select-graduated1" class="select_graduated">
+                                    <option>Graduated</option>
+                                    
+                                </select>
+                            </span>
+                        </div>
+                            <br>
+                            
+                        </div>
+                        <div>
+                            <span class="form_container_wrapper_info_field_spanLink" id="span-educationLink">
+                                <a id="a-educationLink">+ Add another School</a>
+                            </span>
+                            <br>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="form_container_wrapper_info" id="form-form3">
+                    <div class="form_container_wrapper_info_flexContainer">
+                        <div class="form_container_wrapper_info_flexContainer_item" id="div-item1">
+                            <div class="form_container_wrapper_info_flexContainer_item_sidebar" id="div-option1">
+                                <a id="a-option1" class="form_container_wrapper_info_flexContainer_item_sidebar_option">Computer Science</a>
+                            </div>
+                            <div class="form_container_wrapper_info_flexContainer_item_sidebar" id="div-option2">
+                                <a id="a-option2" class="form_container_wrapper_info_flexContainer_item_sidebar_option">Computer Software</a>
+                            </div>
+                            <div class="form_container_wrapper_info_flexContainer_item_sidebar" id="div-option3">
+                                <a id="a-option3" class="form_container_wrapper_info_flexContainer_item_sidebar_option">Engineering</a>
+                            </div>
+                            
+                        </div>
+                        <div class="form_container_wrapper_info_flexContainer_item" id="div-item2">
+                            <div class ="form_container_wrapper_info_flexContainer_item_subContainer" id="div-options1">
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                    <input type="checkbox" name="Computer Science" value="Computer Science" class="input-option1 input-option" checked>Computer Science
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="Assembly Language" class="input-option1 input-option" >Assembly Language
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="C++ Programming" class="input-option1 input-option">C++ Programming
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                        <input type="checkbox" name="Computer Science" value="Database" class="input-option1 input-option">Database
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="Web Development" class="input-option1 input-option">Web Development
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                        <input type="checkbox" name="Computer Science" value="HTML5" class="input-option1 input-option">HTML5
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="SQL" class="input-option1 input-option">SQL
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="PDO" class="input-option1 input-option">PDO
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="MySQL" class="input-option1 input-option">MySQL
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                        <input type="checkbox" name="Computer Science" value="Git" class="input-option1 input-option">Git
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="Sublime" class="input-option1 input-option">Sublime
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Computer Science" value="Java" class="input-option1 input-option">Java
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                        <input type="checkbox" name="Computer Science" value="Heroku" class="input-option1 input-option">Heroku
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                        <input type="checkbox" name="Computer Science" value="NodeJS" class="input-option1 input-option">NodeJS
+                                </div> 
+                            </div>
+                            <div class ="form_container_wrapper_info_flexContainer_item_subContainer" id="div-options2">
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                    <input type="checkbox" name="Computer Software" value="Software Engineering" class="input-option2 input-option" checked>Software Engineering
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                    <input type="checkbox" name="Computer Software" value="Machine Programming" class="input-option2 input-option">Machine Programming
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                    <input type="checkbox" name="Computer Software" value="ExpressJS" class="input-option2 input-option">ExpressJS
+                                </div> 
+                                <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                    <input type="checkbox" name="Computer Software" value="Git" class="input-option2 input-option">Git
+                                </div>
+                            </div>
+
+                            <div class ="form_container_wrapper_info_flexContainer_item_subContainer" id="div-options3">
+                                    <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Engineering" value="DBMS" class="input-option3 input-option" checked>DBMS
+                                    </div> 
+                                    <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Engineering" value="ED" class="input-option3 input-option">ED
+                                    </div> 
+                                    <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem" >
+                                        <input type="checkbox" name="Engineering" value="OS" class="input-option3 input-option">OS
+                                    </div> 
+                                    <div class="form_container_wrapper_info_flexContainer_item_subContainer_optionItem">
+                                        <input type="checkbox" name="Engineering" value="NMST" class="input-option3 input-option">NMST
+                                    </div>
+                                </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="form_container_wrapper_info" id="form-form4">
+                    <div class="form_container_wrapper_info_flexContainer">
+                        <div class="form_container_wrapper_info_flexContainer_item" id="div-quesItem1">
+                            <div class="form_container_wrapper_info_flexContainer_item_question" id="div-question1">
+                                <a id="a-question1" class="form_container_wrapper_info_flexContainer_item_sidebar_question_link">1. &nbsp; Question#1 &nbsp; <span id="span-tick1">&#10003;</span></a>
+                            </div>
+                            <div class="form_container_wrapper_info_flexContainer_item_question" id="div-question2">
+                                <a id="a-question2" class="form_container_wrapper_info_flexContainer_item_sidebar_question_link">2. &nbsp; Question#2 &nbsp; <span id="span-tick2">&#10003;</span></a>
+                            </div>
+                            <div class="form_container_wrapper_info_flexContainer_item_question" id="div-question3">
+                                <a id="a-question3" class="form_container_wrapper_info_flexContainer_item_sidebar_question_link">3. &nbsp; Question#3 &nbsp; <span id="span-tick3">&#10003;</span></a>
+                            </div>
+                            <div class="form_container_wrapper_info_flexContainer_item_question" id="div-question4">
+                                <a id="a-question4" class="form_container_wrapper_info_flexContainer_item_sidebar_question_link">4. &nbsp; Question#4 &nbsp; <span id="span-tick4">&#10003;</span></a>
+                            </div>
+                            
+                        </div>
+                        <div class="form_container_wrapper_info_flexContainer_item" id="div-quesItem2">
+                            <div id="div-quesStatement1">
+                                <div id="div-ques1">Random question</div>
+                                <div ><textarea rows="7" cols="100" id="textarea-resp1"></textarea></div>
+                            </div>
+                            <div id="div-quesStatement2">
+                                <div id="div-ques2">Random question</div>
+                                <div ><textarea rows="7" cols="100" id="textarea-resp2"></textarea></div>
+                            </div>
+                            <div id="div-quesStatement3">
+                                <div id="div-ques3">Random question</div>
+                                <div ><textarea rows="7" cols="100" id="textarea-resp3"></textarea></div>
+                            </div>
+                            <div id="div-quesStatement4">
+                                <div id="div-ques4">Random question</div>
+                                <div ><textarea rows="7" cols="100" id="textarea-resp4"></textarea></div>
+                                
+                            </div>
+                            <div>
+                                <a id="a-next" class="anchor_next" >NextQuestion</a>
+                                <a id="a-prev" class="anchor_prev">PreviousQuestion</a>
+                            </div>
+                        </div>
+                        <div>
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+
+        <div class="footer__container">
+            <div class="footer__container_wrapper">
+                <button class="footer__container_wrapper_button" id="button-backButton">
+                        <span>&#8592;</span> Back</button>
+                <button class="footer__container_wrapper_button" id="button-nextButton"> Next 
+                        <span>&#8594;</span></button>
+                <button class="footer__container_wrapper_button" id="button-submitButton"> Submit 
+            </div>
+        </div>
+
+        <script src="../javascript/page2Function.js"></script>
+        <script src="../javascript/page3Function.js"></script>
+        <script src="../javascript/page4Function.js"></script>
+        <script src="../javascript/script.js"></script>
+        <script src="../javascript/formValidation.js"></script>
+        <script src="../javascript/buttonFunctionalities.js"></script>
+    </body>
+</html>
